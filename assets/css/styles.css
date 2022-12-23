@@ -171,8 +171,12 @@ body {
 }
 
 
-@media (min-width:300px) {
+@media (max-width:768px) {
     
+.texto-general{
+    font-size: 18px;
+}
+
     .grid-secciones-texto1{
         font-size: 10px;
     }
