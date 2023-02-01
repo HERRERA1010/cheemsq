@@ -1,6 +1,7 @@
 :root {
     --color-de-fuente: #fff;
-    --bg-dark: #000;
+    --bg-footer: #1e4b4d;
+    
 }
 
 * {
@@ -14,6 +15,18 @@ body {
     font-size: 32px;
 
     color: var(--color-de-fuente);
+}
+
+.font-w-1{
+    font-weight:lighter;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .container {
@@ -95,7 +108,7 @@ body {
     text-decoration: none;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 
 }
 
@@ -136,10 +149,35 @@ body {
     width: 100%;
 }
 
+/*FOOTER*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+}
+
+.titulos-footer {
+    font-size: 0.9rem;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.links-footer-font-size{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: var(--color-de-fuente);
+}
+
 .container-grid-footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     
+    background-color: var(--bg-footer) ;
+}
+
+.containers{
+    width: 100%;
+    margin: 1rem auto;  
+    padding: 1rem;
 }
 
 
