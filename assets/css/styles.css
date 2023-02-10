@@ -1,16 +1,18 @@
 :root {
+    --bg-general:#367779;
     --color-de-fuente: #fff;
     --bg-footer: #1e4b4d;
-    
+    --bg-dark: #000;
 }
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(54, 119, 121);
+    background-color: var(--bg-general);
     font-family: 'Press Start 2P', cursive;
     font-size: 32px;
 
@@ -115,18 +117,15 @@ body {
 /* SECCION 1  */
 
 .contenedor-texto-principal{
-    border: 2px solid var(--color-de-fuente);
     margin: 50px 0;
-   
-   
 }
 
 .texto-general{
     font-size: 20px;
-    padding: 3rem;
+    padding: 1rem;
     font-weight:lighter;
-    line-height: 40px;
-    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+    line-height: 20px;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
     text-align: left;
 }
 
@@ -185,12 +184,9 @@ body {
     .nav {
         --state-hamburger: scale(0);
         --state-menu: translate(0);
-
-
     }
 
     .nav:target {
-
         --state-close: scale(0);
     }
 
@@ -214,9 +210,7 @@ body {
   
 }
 
-
-@media (max-width:768px) {
-    
+@media (max-width:768px) {    
     .texto-general{
         font-size: 15px;    
         padding: 1rem;    
