@@ -1,5 +1,5 @@
 :root {
-    --bg-general:#367779;
+    --bg-general: #367779;
     --color-de-fuente: #fff;
     --bg-footer: #1e4b4d;
     --bg-dark: #000;
@@ -19,15 +19,15 @@ body {
     color: var(--color-de-fuente);
 }
 
-.font-w-1{
-    font-weight:lighter;
+.font-w-1 {
+    font-weight: lighter;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
@@ -36,6 +36,13 @@ body {
     width: 90%;
     max-width: 1200px;
     overflow: hidden;
+}
+
+.cabecera {
+    background-color: var(--bg-footer);
+    box-shadow: 1px 37px 39px -5px rgba(0, 0, 0, 0.84);
+    -webkit-box-shadow: 1px 37px 39px -5px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 1px 37px 39px -5px rgba(0, 0, 0, 0.84);
 }
 
 .nav {
@@ -116,15 +123,15 @@ body {
 
 /* SECCION 1  */
 
-.contenedor-texto-principal{
+.contenedor-texto-principal {
     margin: 50px 0;
 }
 
-.texto-general{
+.texto-general {
     font-size: 20px;
     padding: 1rem;
-    font-weight:lighter;
-    line-height: 20px;
+    font: weight 1px;
+    line-height: 25px;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
     text-align: left;
 }
@@ -143,16 +150,21 @@ body {
     color: #fff;
 }
 
-.img-cheems{
+.img-cheems {
     margin: auto;
     width: 100%;
+    border-radius: 2%;
+
 }
 
 /*FOOTER*/
 
-.footer{
+.footer {
     width: 100%;
     height: 150px;
+    box-shadow: 1px -27px 39px -5px rgba(0, 0, 0, 0.84);
+    -webkit-box-shadow: 1px -27px 39px -5px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 1px -27px 39px -5px rgba(0, 0, 0, 0.84);
 }
 
 .titulos-footer {
@@ -160,22 +172,22 @@ body {
     text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
-.links-footer-font-size{
-    font-size: 0.7rem;
+.links-footer-font-size {
+    font-size: 0.5rem;
     text-decoration: none;
     color: var(--color-de-fuente);
 }
 
-.container-grid-footer{
+.container-grid-footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    
-    background-color: var(--bg-footer) ;
+
+    background-color: var(--bg-footer);
 }
 
-.containers{
+.containers {
     width: 100%;
-    margin: 1rem auto;  
+    margin: 1rem auto;
     padding: 1rem;
 }
 
@@ -207,25 +219,27 @@ body {
         font-size: .9rem;
         letter-spacing: none;
     }
-  
+
 }
 
-@media (max-width:768px) {    
-    .texto-general{
-        font-size: 15px;    
-        padding: 1rem;    
-        font-weight:10;
+@media (max-width:768px) {
+    .texto-general {
+        font-size: 15px;
+        padding: 1rem;
+        font-weight: 10;
         line-height: 25px;
         text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
         text-align: left;
     }
 
-    .grid-secciones-texto1{
+    .grid-secciones-texto1 {
         font-size: 10px;
     }
+
     .nav-logo {
         font-size: 1.5rem;
     }
+
     .nav-link {
         font-size: .9rem;
     }
