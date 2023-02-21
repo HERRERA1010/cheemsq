@@ -1,7 +1,7 @@
 :root {
-    --bg-general: #367779;
+    --bg-general: #261c77;
     --color-de-fuente: #fff;
-    --bg-footer: #1e4b4d;
+    --bg-footer: #140f34;
     --bg-dark: #000;
 }
 
@@ -29,6 +29,10 @@ body {
 
 .text-left {
     text-align: left;
+}
+
+.margin-titulos{
+    margin: 1.5rem;
 }
 
 .container {
