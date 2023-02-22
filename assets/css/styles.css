@@ -18,9 +18,15 @@ body {
 
     color: var(--color-de-fuente);
 }
+/********************VARIABLES GENERALES*/
+.titulos{
+    font-size: 2rem;
+    line-height: 2em;
+}
 
 .titulo-pagina{
     margin-top: 10%;
+    font-size: 2rem;
 }
 
 .font-w-1 {
@@ -33,6 +39,10 @@ body {
 
 .text-left {
     text-align: left;
+}
+
+.mt-1{
+    margin-top: 1.5rem;
 }
 
 .margin-titulos{
@@ -210,7 +220,7 @@ body {
 
 }
 
-/*FOOTER*/
+/********************8FOOTER*/
 
 .footer {
     width: 100%;
@@ -218,7 +228,6 @@ body {
     box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -webkit-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -moz-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
-    
 
 }
 
@@ -288,7 +297,7 @@ body {
     }
 
     .grid-secciones-texto1 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .nav-logo {
@@ -297,6 +306,10 @@ body {
 
     .nav-link {
         font-size: .9rem;
+    }
+    .titulo-pagina{
+        font-size: 1.5rem;
+        line-height: 4rem;
     }
 
 }
