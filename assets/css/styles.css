@@ -22,7 +22,7 @@ body {
 .titulos{
     font-size: 2rem;
     line-height: 2em;
-}
+    }
 
 .titulo-pagina{
     margin-top: 10%;
@@ -211,6 +211,7 @@ body {
 
 .grid-secciones {
     color: #fff;
+    margin-top: 1.5rem;
 }
 
 .img-cheems {
