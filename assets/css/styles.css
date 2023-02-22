@@ -19,6 +19,10 @@ body {
     color: var(--color-de-fuente);
 }
 
+.titulo-pagina{
+    margin-top: 10%;
+}
+
 .font-w-1 {
     font-weight: lighter;
 }
@@ -70,7 +74,7 @@ body {
 .nav-logo {
     font-size: 2.5rem;
     z-index: 1;
-    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 2px 3px rgb(216, 90, 233);
 }
 
 .burger-nav,
@@ -121,7 +125,7 @@ body {
     text-decoration: none;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
 
 }
 
@@ -177,11 +181,11 @@ body {
 }
 
 .texto-general {
-    font-size: 20px;
+    font-size: 13px;
     padding: 1rem;
     font: weight 1px;
     line-height: 25px;
-    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+    text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
     text-align: left;
 }
 
@@ -214,6 +218,8 @@ body {
     box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -webkit-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -moz-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
+    
+
 }
 
 .titulos-footer {
@@ -273,7 +279,7 @@ body {
 
 @media (max-width:768px) {
     .texto-general {
-        font-size: 15px;
+        font-size: 12px;
         padding: 1rem;
         font-weight: 10;
         line-height: 25px;
