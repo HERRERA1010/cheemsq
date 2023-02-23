@@ -1,7 +1,7 @@
 :root {
     --bg-general: #261c77;
     --color-de-fuente: #fff;
-    --bg-footer: #140f34;
+    --bg-footer: #3d0168;
     --bg-dark: #000;
 }
 
@@ -19,6 +19,15 @@ body {
     color: var(--color-de-fuente);
 }
 /********************VARIABLES GENERALES*/
+.texto-general {
+    font-size: 17px;
+    padding: 1rem;
+    font: weight 1px;
+    line-height: 25px;
+    text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
+    text-align: left;
+}
+
 .titulos{
     font-size: 2rem;
     line-height: 2em;
@@ -190,14 +199,7 @@ body {
     margin: 50px 0;
 }
 
-.texto-general {
-    font-size: 13px;
-    padding: 1rem;
-    font: weight 1px;
-    line-height: 25px;
-    text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
-    text-align: left;
-}
+
 
 
 /*GRID*/
@@ -215,10 +217,7 @@ body {
 }
 
 .img-cheems {
-    
     width: 100%;
-    
-
 }
 
 /********************8FOOTER*/
