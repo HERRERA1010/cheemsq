@@ -1,6 +1,6 @@
 :root {
     --bg-general: #261c77;
-    --color-de-fuente: #fff;
+    --color-de-fuente: #ffffff;
     --bg-footer: #3d0168;
     --bg-dark: #000;
 }
@@ -14,17 +14,14 @@
 body {
     background-color: var(--bg-general);
     font-family: 'Press Start 2P', cursive;
-    font-size: 32px;
-
     color: var(--color-de-fuente);
 }
-/********************VARIABLES GENERALES*/
+/********************VARIABLES GENERALES**************************/
 .texto-general {
     font-size: 17px;
     padding: 1rem;
     font: weight 1px;
     line-height: 25px;
-    text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
     text-align: left;
 }
 
@@ -59,6 +56,11 @@ body {
 
 .margin-titulos{
     margin: 1.5rem;
+}
+/************************/
+
+h1{
+    line-height: 100px;
 }
 
 .container {
@@ -123,12 +125,10 @@ body {
     left: 0;
     right: 0;
     padding: 0;
-
     display: grid;
     align-content: center;
     gap: 2em;
     padding-left: 5%;
-
     transform: var(--state-menu);
     transition: .3s transform;
 
@@ -150,11 +150,8 @@ body {
     text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
 
 }
-
 /* SECCION 1  */
-
 /*borde iluminado de imagenes*/
-
 .block{
     position: relative;
     margin:  auto  ;
@@ -194,10 +191,7 @@ body {
     filter: blur(40px);
     
 }
-
-
 /****************************************************/
-
 .contenedor-texto-principal {
     margin: 50px 0;
 }
@@ -208,7 +202,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 20px 4;
-    grid-gap: 1px;
+    grid-gap: 5px;
 }
 
 .grid-secciones {
@@ -219,16 +213,14 @@ body {
 .img-cheems {
     width: 100%;
 }
-
-/********************8FOOTER*/
-
+/******FOOTER******/
 .footer {
     width: 100%;
-    height: 150px;
+    height: 100px;
     box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -webkit-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
     -moz-box-shadow: -2px -8px 28px 10px rgba(0,0,0,0.5);
-
+    margin-bottom: 0px;
 }
 
 .titulos-footer {
@@ -237,9 +229,16 @@ body {
 }
 
 .links-footer-font-size {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-decoration: none;
     color: var(--color-de-fuente);
+    margin: 0;
+    font-weight: lighter;
+
+}
+
+.nav-item > li {
+    margin-top: 7px;
 }
 
 .container-grid-footer {
@@ -272,8 +271,6 @@ body {
         padding: 0;
         gap: 1.5em;
         grid-auto-flow: column;
-
-
         transform: unset;
         grid-column: -2/-1;
         grid-row: 1/2;

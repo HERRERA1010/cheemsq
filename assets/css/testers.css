@@ -1,5 +1,6 @@
 .titulos-testers{
     font-size: 2rem;
+    line-height: 1rem;
 }
 
 
@@ -10,5 +11,17 @@
     font-size: 1.5rem; 
     line-height: 1.9rem;
     font-weight: lighter;
+}
+
+@media (max-width:480px){
+     .texto-secc-testers{
+        font-size: 1rem;
+        line-height: 1.4rem;
+     }
+     .titulos-testers{
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+
 }
 
